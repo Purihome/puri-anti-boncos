@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow folder teknis (jika ada)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Sitemap untuk SEO
+Sitemap: https://theaccessoryfiles.com/sitemap.xml
