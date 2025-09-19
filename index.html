@@ -4248,33 +4248,37 @@
       <nav itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumb-nav small--text-center" aria-label="">
         <div class="breadcrumbs-width-container page-width">
           <div class="breadcrumbs-container--inner">
-            <span class="breadcrumb-nav--item-wrapper breadcrumb-nav--link-wrapper" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-              <a class="breadcrumb-nav__link" href="https://theaccessoryfiles/" title="Home" itemprop="item" aria-label="Home" style="color: white;">
-                <svg class="breadrumb-nav__home-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 460.298 460.297" xml:space="preserve">
-                  <path d="M230.149,120.939L65.986,256.274c0,0.191-0.048,0.472-0.144,0.855c-0.094,0.38-0.144,0.656-0.144,0.852v137.041
-               c0,4.948,1.809,9.236,5.426,12.847c3.616,3.613,7.898,5.431,12.847,5.431h109.63V303.664h73.097v109.64h109.629
-               c4.948,0,9.236-1.814,12.847-5.435c3.617-3.607,5.432-7.898,5.432-12.847V257.981c0-0.76-0.104-1.334-0.288-1.707L230.149,120.939
-               z"></path>
-                  <path d="M457.122,225.438L394.6,173.476V56.989c0-2.663-0.856-4.853-2.574-6.567c-1.704-1.712-3.894-2.568-6.563-2.568h-54.816
-               c-2.666,0-4.855,0.856-6.57,2.568c-1.711,1.714-2.566,3.905-2.566,6.567v55.673l-69.662-58.245
-               c-6.084-4.949-13.318-7.423-21.694-7.423c-8.375,0-15.608,2.474-21.698,7.423L3.172,225.438c-1.903,1.52-2.946,3.566-3.14,6.136
-               c-0.193,2.568,0.472,4.811,1.997,6.713l17.701,21.128c1.525,1.712,3.521,2.759,5.996,3.142c2.285,0.192,4.57-0.476,6.855-1.998
-               L230.149,95.817l197.57,164.741c1.526,1.328,3.521,1.991,5.996,1.991h0.858c2.471-0.376,4.463-1.43,5.996-3.138l17.703-21.125
-               c1.522-1.906,2.189-4.145,1.991-6.716C460.068,229.007,459.021,226.961,457.122,225.438z"></path>
-                </svg>
-              </a>
-              <meta itemprop="name" content="Home">
-              <meta itemprop="position" content="1">
-              <meta itemprop="url" content="https://theaccessoryfiles/">
-            </span>
-            <span class="breadcrumb-nav--item-wrapper breadcrumb-nav--separator-wrapper">
-              <span class="breadcrumb-nav__separator" aria-hidden="true">:</span>
-            </span>
-            <span class="breadcrumb-nav--item-wrapper breadcrumb-nav--text-wrapper" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-              <span class="breadcrumb-nav__text" itemprop="name"> Purislot – Dunia Hiburan Game Online Modern & Interaktif 2025 </span>
-              <meta itemprop="position" content="2">
-              <meta itemprop="url" content="https://theaccessoryfiles/">
-            </span>
+<nav itemscope itemtype="https://schema.org/BreadcrumbList" aria-label="Breadcrumb">
+  <!-- Crumb 1 -->
+  <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-nav--item-wrapper breadcrumb-nav--link-wrapper">
+    <a class="breadcrumb-nav__link" itemprop="item" href="https://theaccessoryfiles.com/" title="Home" aria-label="Home" style="color:white;">
+      <!-- NAME harus di dalam elemen item -->
+      <span itemprop="name">
+        <!-- ikon boleh di sini -->
+        <svg class="breadrumb-nav__home-icon" ...>...</svg>
+        Home
+      </span>
+    </a>
+    <meta itemprop="position" content="1" />
+  </span>
+
+  <!-- Crumb 2 (contoh) -->
+  <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    <a itemprop="item" href="https://theaccessoryfiles.com/kategori/">
+      <span itemprop="name">Kategori</span>
+    </a>
+    <meta itemprop="position" content="2" />
+  </span>
+
+  <!-- Crumb 3 (halaman aktif) -->
+  <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" aria-current="page">
+    <a itemprop="item" href="https://theaccessoryfiles.com/kategori/produk/">
+      <span itemprop="name">Produk</span>
+    </a>
+    <meta itemprop="position" content="3" />
+  </span>
+</nav>
+			  
           </div>
         </div>
       </nav>
@@ -5826,4 +5830,5 @@
  
        
  
+
 </body></html>
